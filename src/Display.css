@@ -1,0 +1,10 @@
+.Display {
+	/*background-color: #216147;*/
+        text-align: right;
+	padding: 2% 0.5rem;
+}
+.Display span {
+	/*color: #216147;*/
+	font-size: 2rem;
+	text-align: left;
+}

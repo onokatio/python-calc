@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -13,15 +12,19 @@
   }
 }
 
+/* 11dca6 */
+/*https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=a5d6a7&secondary.color=78909C*/
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  text-align: center;
+  background-color: #4b636e;
+  min-height: 30vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /*color: white;*/
 }
 
 .App-link {
