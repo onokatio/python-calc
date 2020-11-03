@@ -3,6 +3,10 @@ button {
 	margin: 1% 2% !important;
 }
 
+button span {
+	font-size: 1.2rem;
+}
+
 .Buttons {
 	display: grid;
 	grid-template-columns: 20% 20% 20% 20% 20%;
@@ -20,6 +24,16 @@ button {
 
 #button-0 {
 	grid-column: 2;
+	grid-row: 4;
+}
+
+#button-000 {
+	grid-column: 1;
+	grid-row: 4;
+}
+
+#button-dot {
+	grid-column: 3;
 	grid-row: 4;
 }
 
@@ -41,4 +55,19 @@ button {
 #button-divide {
 	grid-column: 5;
 	grid-row: 1;
+}
+
+#button-percentage {
+	grid-column: 5;
+	grid-row: 2;
+}
+
+#button-equals {
+	grid-column: 5;
+	grid-row: 3;
+}
+
+#button-ac {
+	grid-column: 5;
+	grid-row: 4;
 }

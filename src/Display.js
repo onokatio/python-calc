@@ -1,10 +1,10 @@
 //import logo from './logo.svg';
 import './Display.css';
 
-function Display() {
+function Display(props) {
   return (
     <div className="Display">
-	  <span>0.</span>
+	  <span>{props.string}</span>
     </div>
   );
 }
